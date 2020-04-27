@@ -100,7 +100,7 @@ function verificaGanhador() {
 function validaVelha() {
     if (areaJogo.indexOf("") === -1) {
         setTimeout(() => {
-            alert("Deu velha! Ninguém pontuou");
+            alert("Deu velha! Ninguém pontuou.");
         }, 100);
     }
 }
@@ -122,7 +122,7 @@ function validaJogada(e) {
 
     if (vencedor) {
         setTimeout(() => {
-            alert(`Ponto para o Jogador ${vencedor}`);
+            alert(`Ponto para o Jogador ${vencedor}.`);
         }, 100);
     }
 
