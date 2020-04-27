@@ -14,6 +14,11 @@
     color: lawngreen;
 }
 
+#btnNovoJogo {
+    cursor: pointer;
+    color: rgb(0, 195, 255);
+}
+
 #app {
     display: flex;
     flex-direction: row;
@@ -21,7 +26,7 @@
     justify-content: space-around;
     background-color: rgb(51, 51, 51);
     border-radius: 5px;
-    padding: 10px 10px 7px 10px;
+    padding: 10px;
     margin: 0px 30px 30px 30px;
     height: 495px;
 }
